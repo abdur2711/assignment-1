@@ -70,3 +70,33 @@
   font-weight: bold;
   margin-bottom: 38px;
 }
+
+/* action styles */
+.action-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin: 120px auto;
+
+}
+
+.action-info h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #252432;
+}
+
+.action-info p {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+  max-width: 515px;
+  line-height: 30px;
+  margin: 23px 0;
+}
+
+.action-container img {
+  border-radius: 48px;
+}
