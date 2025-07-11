@@ -243,3 +243,39 @@ label {
 .contact-form input[type="submit"] {
   width: 100%;
 }
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  padding: 80px;
+}
+
+.footer h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+}
+
+.footer p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #8987A1;
+  line-height: 40px;
+  max-width: 530px;
+  margin: 10px auto;
+}
+
+.footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+ul a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #8987A1;
+}
